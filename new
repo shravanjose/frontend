@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+
+<h2>Please fill this form to enroll your student</h2>
+
+<form>
+    <label for="name">Enter your name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="place">Enter your Place:</label><br>
+    <input type="text" id="place" name="place"><br><br>
+
+    <label for="email">Enter your Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="phone">Enter your Phone:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="age">Enter your Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label for="password">Enter your Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="about">Tell Something about yourself:</label><br>
+    <textarea id="about" name="about" rows="4" cols="50">say something about yourself</textarea><br><br>
+
+    <label>Select your gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+
+    <label>Choose your Skills:</label><br>
+    <input type="checkbox" id="communication" name="skills" value="Communication">
+    <label for="communication">Communication</label><br>
+    <input type="checkbox" id="designing" name="skills" value="Designing">
+    <label for="designing">Designing</label><br>
+    <input type="checkbox" id="programming" name="skills" value="Programming">
+    <label for="programming">Programming</label><br><br>
+
+    <label for="course">Choose your Course:</label><br>
+    <select id="course" name="course">
+        <option value="UI/UX">UI/UX</option>
+    </select><br><br>
+
+    <p>Please Click the below buttons</p>
+    <button type="submit">Submit</button>
+    <button type="button" onclick="this.form.reset()">Cancel</button>
+    <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>

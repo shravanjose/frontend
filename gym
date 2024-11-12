@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>Gym Registration Form</title>
+</head>
+<body>
+
+<h2>Bodyfit Gym Registration Form</h2>
+<img src="./dadad.jpg"width="300" style="display: block; margin: 40px auto;">
+<br>
+<br>
+
+<form action="/submit-registration" method="post">
+
+    <!-- Full Name Field -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Age Field -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <!-- Gender Selection -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <!-- Membership Type Selection -->
+    <p>Membership Type:</p>
+    <input type="radio" id="monthly" name="membership" value="Monthly">
+    <label for="monthly">Monthly</label><br>
+    <input type="radio" id="quarterly" name="membership" value="Quarterly">
+    <label for="quarterly">Quarterly</label><br>
+    <input type="radio" id="yearly" name="membership" value="Yearly">
+    <label for="yearly">Yearly</label><br><br>
+
+    <!-- Workout Preferences -->
+    <p>Workout Preferences:</p>
+    <input type="checkbox" id="cardio" name="preferences" value="Cardio">
+    <label for="cardio">Cardio</label><br>
+    <input type="checkbox" id="strength" name="preferences" value="Strength Training">
+    <label for="strength">Strength Training</label><br>
+    <input type="checkbox" id="yoga" name="preferences" value="Yoga">
+    <label for="yoga">Yoga</label><br>
+    <input type="checkbox" id="swimming" name="preferences" value="Swimming">
+    <label for="swimming">Swimming</label><br>
+    <input type="checkbox" id="group" name="preferences" value="Group Classes">
+    <label for="group">Group Classes</label><br><br>
+
+    <!-- Contact Information -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <!-- Emergency Contact -->
+    <label for="emergency-name">Emergency Contact Name:</label><br>
+    <input type="text" id="emergency-name" name="emergency-name" required><br><br>
+
+    <label for="emergency-phone">Emergency Contact Phone Number:</label><br>
+    <input type="tel" id="emergency-phone" name="emergency-phone" required><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
